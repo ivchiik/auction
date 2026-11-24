@@ -19,6 +19,6 @@ Codex is lead and reviewer. Claude Code Opus 5.5 / max is implementation owner.
 | P3-02 | Average points | One-decimal roster averages after the reveal, in saved results and share text | Done — verdict tiles, rated rosters, Collection, history, share, spoken labels |
 | P3-03 | Sports subcategories and Starting XI | Sport → mode choice; soccer attackers/midfielders/defenders and the $40 XI in current and all-time pools | Done — 35 packs / 2,409 cards; lineups first; full XI, NFL lineup and four-seat drafts completed on devices |
 | P3-04 | Rename to Auction, no source name in the app | Visible name, metadata, share text and docs; neutrality guard | Done — `npm run check:neutral` scans the whole repository; legacy native identifiers kept for saves |
-| P3-05 | Verification, Android preview, public upload | Gates, native checks, fresh APK, reviewed upload to `ivchiik/auction` | See QA.md "Phase 3" |
+| P3-05 | Verification, Android preview, public upload | Gates, native checks, fresh APK, reviewed upload to `ivchiik/auction` | Done — 153/153 tests and guards, full drafts on iPhone and Android, APK 0.2.0, public repository with the source name scrubbed |
 
 Next phase after playable pitch: full source/catalog parity, full roster tournaments and Call Out, then online multiplayer if commissioned. No claim of complete website parity before these are verified.

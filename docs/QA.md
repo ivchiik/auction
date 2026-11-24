@@ -138,3 +138,9 @@ Codex reached its usage limit at 17:27 while starting the native review. The mai
 - The iOS standalone build still needs Xcode 26.4+ (unchanged).
 - Not repeated this session: offline photo fallback, the shot clock, backgrounding and daily completion. Codex verified them before phase 3, and the phase 3 changes do not touch them.
 - Simulators and an emulator only; no physical phones.
+
+### Publication
+
+- Published to the public repository https://github.com/ivchiik/auction (default branch `main`) at the user's request. The first commit `b821289` holds 327 files; the remote head matched the local one after the push.
+- Before publishing, at the user's choice, every tracked file was scrubbed of the source's name and addresses: docs and generators say "the source site", and `npm run check:neutral` now scans the whole repository. All three generators were rerun afterwards and reproduced their 45 data modules byte for byte.
+- The staged content was scanned for credentials, personal paths, e-mail addresses and the source's name; nothing was found. Commits use the account's GitHub noreply address, not a personal e-mail. Binaries stay local: `artifacts/builds/` (APK and source ZIP, with `SHA256SUMS.txt`) is git-ignored.
