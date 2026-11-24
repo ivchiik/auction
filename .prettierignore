@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+.work/
+dist/
+web-build/
+ios/
+android/
+coverage/
+design/
+docs/
+package-lock.json
+# Coordinator-owned instruction files are edited by hand only.
+AGENTS.md
+CLAUDE.md

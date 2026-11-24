@@ -1,0 +1,15 @@
+bp:v1
+canvas:
+  backgroundEnabled: false
+---
+7203aabf09b83c21 fr p(0,0) s(1024,1024) f[(c4470b057d1bed82,#193D31)] clip "Auction app icon"
+  13f9f4fb7a57b4ab gr rot(344) p(229.9965,149.997) s(564,724) f[] "Frame 1"
+    86cd63a8c2b86241 r p(232,420) s(100,285) f[(05726bb61e932ae0,#F25736)] rd(50) "Rectangle 1"
+    8d2a68d8a997e5af c p(42,0) s(480,480) f[(806d0b10228b2035,#E4EF85)] "Circle 1"
+    44e2a1135913f1c0 t("a.",Fraunces,310,b,align(c),lh(auto,1.23),ls(-18px)) p(78,35) s(390,360) f[(6e745c3817d99df4,#193D31)] "Text 1"
+444c4fdfada1ef26 fr p(1150,0) s(1024,1024) f[] clip "Adaptive foreground"
+  c3e747983ce8415a gr rot(344) p(332.0041,249.9959) s(360,524) obb(266.76,309.76,612.8142,210.5306,757.2482,714.2317,411.194,813.4611) f[] "Frame 2"
+    060f8ef4926224ce r p(144,314) s(72,198) f[(3cde914702ef4201,#F25736)] rd(36) "Rectangle 2"
+    5c568f0edd15b715 c p(12,0) s(336,336) f[(66d9c3f909dfc04e,#E4EF85)] "Circle 2"
+    e83dd0d35423ca36 t("a.",Fraunces,217,b,align(c),lh(auto,1.24),ls(-13px)) p(37,24) s(274,252) f[(95f1048e1dd38ae6,#193D31)] "Text 2"
+bp:end

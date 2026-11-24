@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Auction",
+    "slug": "auction",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F2E9",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.paddle.pitch",
+      "buildNumber": "2"
+    },
+    "android": {
+      "package": "com.paddle.pitch",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-foreground.png",
+        "backgroundColor": "#193D31"
+      },
+      "softwareKeyboardLayoutMode": "resize",
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/adaptive-foreground.png",
+          "imageWidth": 240,
+          "resizeMode": "contain",
+          "backgroundColor": "#193D31"
+        }
+      ],
+      "expo-image",
+      "expo-system-ui"
+    ]
+  }
+}
